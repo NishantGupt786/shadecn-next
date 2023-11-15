@@ -43,7 +43,7 @@ const db = {
       {
         "id": "6",
         "title": "Grilled Mushrooms",
-        "image": "grilled_mushrooms.jpg",
+        "image": "grilled_mushroom.jpg",
         "time": 15,
         "description": "Flavorful grilled Portobello mushrooms with a lemon and herb marinade.",
         "vegan": true
