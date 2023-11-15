@@ -26,7 +26,7 @@ export default async function Home() {
   await new Promise((resolve) => setTimeout(resolve, 3000));
   return (
     <main>
-      <div className="grid grid-cols-1 lg:grid-cols-3 2xl:grid-cols-5 gap-8">
+      <div className="mx-8 md:grid-cols-2 md:mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">
         {recipes.map((recipe) => (
           <Card key={recipe.id} className="flex flex-col justify-between">
             <CardHeader className="flex-row gap-4 items-center">
